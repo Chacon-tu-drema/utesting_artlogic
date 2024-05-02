@@ -1,4 +1,12 @@
 # Artlogic Testing Workshops
+## Setup
+go to the directory that you want to the workshop to be
+```bash
+python3 -m venv vevn
+source venv/bin/activate
+pip install poetry
+```
+
 day 1
 ---
 ## Agile practices
@@ -58,10 +66,24 @@ Generalize behavior
 ## Exercise
 1. Write a function that takes numbers from 1 to 100 and outputs them as a string, but for multiples of three returns “Fizz” instead of the number and for the multiples of five returns “Buzz”. For numbers which are multiples of both three and five returns “FizzBuzz”.
 
+To start the excercice create a new poetry project:
+```bash
+poetry new <project name>
+cd <project name>
+poetry add pytest
+```
+
 2. Leap year kata
 Write a function that returns true or false depending on whether its input integer is a leap year or not.
 A leap year is defined as one that is divisible by 4, but is not otherwise divisible by 100 unless it is also divisible by 400.
 For example, 2001 is a typical common year and 1996 is a typical leap year, whereas 1901 is an atypical common year and 2000 is an atypical leap year.
+
+To start the excercice create a new poetry project:
+```bash
+poetry new <project name>
+cd <project name>
+poetry add pytest
+```
 
 ### Solution
 1. 
