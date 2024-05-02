@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mars-rover"
+version = "0.1.0"
+description = ""
+authors = ["Octavio Montt <63523896+Chacon-tu-drema@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
