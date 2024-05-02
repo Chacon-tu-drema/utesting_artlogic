@@ -87,7 +87,7 @@ poetry add pytest
 
 ### Solution
 1. 
-![fizzbuzz.py](./fizzbuzz/fizzbuzz/fizzbuzz.py)
+[fizzbuzz.py](./fizzbuzz/fizzbuzz/fizzbuzz.py)
 ```python
 class FizzBuzz:
     def number_conversion_to_string(self, number: int) -> str:
@@ -101,7 +101,7 @@ class FizzBuzz:
             return "Buzz"
         return str(number)
 ```
-![test_fizzbuzz.py](./fizzbuzz/tests/test_fizzbuzz.py)
+[test_fizzbuzz.py](./fizzbuzz/tests/test_fizzbuzz.py)
 ```python
 from fizzbuzz.fizzbuzz import FizzBuzz
 from parameterized import parameterized
@@ -121,7 +121,7 @@ class TestFizzBuzz:
         assert FizzBuzz().number_conversion_to_string(number) == output
 ```
 2.
-![leap_year.py](./leap_year/leap_year/leap_year.py)
+[leap_year.py](./leap_year/leap_year/leap_year.py)
 ```python
 class LeapYearCalculator:
     def is_leap_year(self, year: int) -> bool:
@@ -133,7 +133,7 @@ class LeapYearCalculator:
             return True
         return False
 ```
-![test_leap_year.py](./leap_year/tests/test_leap_year.py)
+[test_leap_year.py](./leap_year/tests/test_leap_year.py)
 ```python
 from parameterized import parameterized
 
@@ -212,7 +212,7 @@ poetry add pytest
 ```
 
 ### Solution
-![mars_rover.py](./mars_rover/mars_rover/mars_rover.py)
+[mars_rover.py](./mars_rover/mars_rover/mars_rover.py)
 ```python
 class MarsRover:
     def execute(self, command: str) -> str:
@@ -304,7 +304,7 @@ The acepten test is more domain driven.
 [execice link](https://www.codurance.com/katas/shopping-cart-kata)
 
 ### Soulution (INCOMPLETE)
-![shopping_cart.py](./shopping_cart/shopping_cart/shopping_cart.py)
+[shopping_cart.py](./shopping_cart/shopping_cart/shopping_cart.py)
 ```python
 class Product:
     def __init__(self, product_name, cost, revenue, VAT):
@@ -347,7 +347,7 @@ class ShoppingCart:
         return {'total_products': total_products, 'total_price': total_price}    
 ```
 
-![test_shoping_cart.py](./shopping_cart/tests/test_shopping_cart.py)
+[test_shoping_cart.py](./shopping_cart/tests/test_shopping_cart.py)
 ```python
 import pytest
 from unittest.mock import MagicMock
